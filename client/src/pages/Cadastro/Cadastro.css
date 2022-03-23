@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    height: 100vh;
+
+}
+
+.body h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.body form{
+
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.body form .cadastro-campo{
+    margin-bottom: 15px;
+    margin: 10px 0 12px 0;
+    width: calc(100% / 2 - 15px);
+}
+
+.cadastro-campo{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.cadastro-campo label{
+    display: block;
+    padding-bottom: 3px;
+    
+}
+
+
+.cadastro-campo input, select{
+    height: 45px;
+    width: 95.9%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px; 
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    box-sizing:border-box;
+
+}
+
+
+.cadastro-campo input:focus,
+.cadastro-campo input:valid{
+    border-color: green;
+}
+
+.body form .button{
+    height: 45px;
+    width: 20%;
+    outline: none;
+    margin: auto;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: gray;
+}
+
+.body form .button:hover{
+    background-color: green;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.021);
+    cursor: pointer;
+}
+
+
